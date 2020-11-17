@@ -1,0 +1,158 @@
+body{
+background-color: #F5EEE6;
+}
+
+/* MAIN TITLE  */
+.div-Main-title {
+  background-color: #c86b85;
+}
+.Main-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  text-align: center;
+
+  margin-bottom: 0;
+  padding-top: 50px;
+}
+.Main-subtitle{
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  text-align: center;
+
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* HEURES D'OUVERTURE CONTAINER  */
+
+#firstSection {
+  position: relative;
+}
+
+.container-fluid-MainInfos {
+  padding: 5% 4%;
+}
+
+.heuresOuverture {
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+
+.title-heures-ouverture {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.heures-ouverture {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.imageBib {
+  left: 50px;
+}
+.kannerSall {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* LIVRE DE LA SEMAINE */
+
+.container-fluid-livreSemaine {
+  background-color: #E6A4B4;
+  padding-top: 2%;
+}
+
+.titreLivreSemaine {
+  font-family: 'Great Vibes';
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.livreSemaine {
+  text-align: center;
+  left: 320px;
+
+}
+
+.card-header {
+  background-color: #E6A4B4;
+  border-bottom: none;
+}
+
+
+/* CONTACT INFORMATION  */
+
+.container-fluid-contactInformation {
+  background-color: #F5EEE6;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  font-size: 20px;
+}
+
+.responsable {
+  text-align: center;
+
+}
+.titreResponsable {
+  font-family: 'Great Vibes', cursive;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+/* ADRESSE  */
+
+.container-fluid-adresse {
+  background-color: #E6A4B4;
+  padding: 5% 4%;
+}
+
+.titreCI {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.adresseBib {
+  left: 140px;
+  top: 70px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.googleMaps {
+  position: relative;
+  /* left: 100px; */
+}
+
+
+
+#footer {
+  text-align: center;
+  background-color: #F5EEE6;
+  padding-top: 20px;
+}
+
+
+/*
+
+#features {
+  text-align: center;
+  padding: 0 1.5rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.fas-features{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.fas-features:hover{
+  color: #ff4c68;
+}
+.p-features {
+  color: #8f8f8f;
+  padding: 0 1.5rem;
+} */
