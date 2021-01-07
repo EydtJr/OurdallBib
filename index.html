@@ -17,12 +17,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </head>
-
+  
 <body>
+
   <section>
-    <div class="div-Main-title">
+    <div class="div-Main-title" style="background-image: url(Pictures/old_Books.jpg);">
       <h1 class="Main-title"><b>OurdallBibliotheik</b></h1>
-      <h2 class="Main-subtitle">Veinen</h2>
+      <h2 class="Main-subtitle"><b>19, rue de la Gare L-9420 Vianden<b/></h2>
+      <h2 class="Main-subtitle"><b>Tel: 26 87 42 61<b/></h2>
     </div>
   </section>
 
@@ -47,18 +49,15 @@
           <!-- <img class="kannerSall" src="Pictures/OB_5.jpg" alt="Ourdall Bibliotheik, Veinen, Vianden, Bibliothéque, KultOureilen"> -->
           <img class="sallEntree" src="Pictures/OB_4.jpg" alt="Ourdall Bibliotheik, Veinen, Vianden, Bibliothéque, KultOureilen">
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- Livre de la Semaine -->
+  <!-- Livre du mois -->
 
   <section id="livre">
 
     <div class="container-fluid-livreSemaine">
-
-
       <div class="row">
         <div class="col-lg-3 pictureLivreSemaine">
           <div class="row">
@@ -87,52 +86,68 @@
     </div>
   </section>
 
+
+<!-- Livre du mois Enfant -->
+
+<section id="livre">
+
+  <div class="container-fluid-livreEnfant">
+    <div class="row">
+      <div class="col-lg-6 livreEnfant">
+        <div class="row">
+          <div class="col-lg">
+            <h2 class="titreLivreEnfant">Kannerbuch vum Mount!</h2>
+            <div class="chEnfant">
+              <h2 class="title"> Janosch: Oh wie schön ist Panama</h2>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque habitant morbi tristique. Sit amet purus gravida quis. Arcu vitae elementum curabitur
+                vitae nunc. A diam maecenas sed enim ut sem. Leo urna molestie at elementum eu facilisis sed odio. Blandit massa enim nec dui nunc mattis. Elementum eu facilisis sed odio morbi quis commodo odio. Aliquam ut porttitor leo a diam
+                sollicitudin tempor. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Malesuada fames ac turpis egestas maecenas. Vitae auctor eu augue ut.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 pictureLivreEnfant">
+        <div class="row">
+          <div class="col-lg">
+            <img class="pictureLE" src="Pictures/Janosch.jpeg" alt="Photo by Roman Kraft on Unsplash">
+            <p class="textPictureLE">Photo by Roman Kraft on Unsplash</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
   <!-- Contact Information -->
+
   <section id="contact">
+
     <div class="container-fluid-contactInformation">
-
       <div class="row">
-
-        <div class="col-lg responsable">
+        <div class="col-lg-6 responsable">
           <h2 class="titreResponsable"> Kontaktpersounen</h2>
-          <p><strong>Anita Eydt-Schmit</strong><br>
-          <p><strong>Julie Berg</strong><br>
-
+          <p id="Anita"><strong>Anita Eydt-Schmit</strong><br></p>
+          <ul style="list-style-type: square; padding-left:0px" class="Anita";>
+            <li>Membren</li>
+            <li>Don vun Bicher</li>
+          </ul>
+          <p><strong>Julie Berg</strong><br></p>
+          <a href="mailto:kulteil@pt.lu" class="myButton">Kontaktéiert eis</a>
         </div>
-      </div>
-      <div class="row">
-        <a href="mailto:kulteil@pt.lu" class="col-lg-3 myButton">Kontaktéiert eis</a>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- ADRESSE  -->
-  <section id="adresse">
-    <div class="container-fluid-adresse">
-      <div class="row">
-
-        <div class="col-lg-6 adresseBib">
-          <!-- <h2 class="titreCI">Adresse</h2> -->
-          <p>Ourdall Bibliotheik <br>
-            19, rue de la Gare <br>
-            L-9420 Vianden <br>
-            Tel: 26 87 42 61
-          </p>
-        </div>
-
         <div class="col-lg-6 googleMaps">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d160.50767451638237!2d6.208666863922877!3d49.93403718288813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1605465057251!5m2!1sen!2sca" width="400" height="300"
             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-
       </div>
     </div>
   </section>
 
-
-
+  
   <!-- Footer -->
+  
   <footer id="footer">
     <p class="para-footer">© Copyright 2020 Charles Eydt</p>
   </footer>
