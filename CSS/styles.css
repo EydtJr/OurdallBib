@@ -5,11 +5,30 @@ background-color: #F5EEE6;
 .row {
   position: relative;
 }
+
+/* NAV-BAR
+
+.container-fluid-navigationBar{
+background-color:#c48312;
+}
+
+.navbar{
+  font-family: "Great Vibes", cursive ;
+}
+
+.navList{
+  font-family: "Great Vibes", cursive;
+  color: #ffffff;
+} */
+
 /* MAIN TITLE  */
+
 .div-Main-title {
   /* background-color: #c86b85; */
-  background-color: #c48312;
+  /* background-color: #c48312; */
   position: relative;
+  color: #F5EEE6;
+
 }
 .Main-title {
   font-family: 'Great Vibes', cursive;
@@ -17,8 +36,7 @@ background-color: #F5EEE6;
   text-align: center;
 
   margin-bottom: 0;
-  padding-top: 50px;
-
+  padding-top: 20px;
 }
 .Main-subtitle{
   font-family: 'Great Vibes', cursive;
@@ -27,7 +45,6 @@ background-color: #F5EEE6;
 
   margin-top: 20px;
   padding-bottom: 20px;
-
 }
 
 /* HEURES D'OUVERTURE CONTAINER  */
@@ -39,7 +56,7 @@ background-color: #F5EEE6;
 .container-fluid-MainInfos {
   padding: 5% 4%;
   position: relative;
-
+  left: -15px;
 }
 .rowOuvertures {
   height: 310px;
@@ -67,8 +84,8 @@ background-color: #F5EEE6;
 }
 .kannerSall {
   position:absolute;
-width: 300px;
-height: 300px;
+  width: 300px;
+  height: 300px;
 
 }
 
@@ -78,11 +95,11 @@ height: 300px;
   position: absolute;
 }
 
-/* LIVRE DE LA SEMAINE */
+/* LIVRE du mois */
 
 .container-fluid-livreSemaine {
   /* background-color: #E6A4B4; */
-  background-color: #1253c4;
+  background-color: #128FC4;
   padding-top: 2%;
   padding-bottom: 2%;
   position: relative;
@@ -91,7 +108,7 @@ height: 300px;
 
 .titreLivreSemaine {
   font-family: 'Great Vibes';
-  font-size: 38px;
+  font-size: 56px;
   font-weight: bold;
   text-align: center;
 }
@@ -100,21 +117,17 @@ height: 300px;
   position: relative;
   left: 100px;
 }
-
 .pictureLS {
   position: absolute;
   max-width: 400px;
   max-height: 400px;
 }
-
 .textPictureLS {
   font-family: 'Great Vibes', cursive;
   position: absolute;
   text-align: center;
   font-size: xx-small;
-
 }
-
 .livreSemaine {
   text-align: center;
   left: 120px;
@@ -122,7 +135,58 @@ height: 300px;
 
 .card-header {
   /* background-color: #E6A4B4; */
-  background-color: #1253c4;
+  background-color: #128FC4;
+  border-bottom: none;
+}
+
+/* Livre du mois Enfant */
+
+.container-fluid-livreEnfant {
+  /* background-color: #E6A4B4; */
+  background-color: #f5b133;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  position: relative;
+  /* height: 510px; */
+}
+
+.pictureLivreEnfant {
+  position: relative;
+  left: 120px;
+}
+
+.pictureLE {
+  position: absolute;
+  max-width: 400px;
+  max-height: 400px;
+  top: 100px;
+  left:51px;
+}
+
+.textPictureLE {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  top: 100px;
+  left:51px;
+}
+
+.livreEnfant {
+  text-align: center;
+  left: 100px;
+}
+
+.titreLivreEnfant {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chEnfant {
+  /* background-color: #E6A4B4; */
+  background-color: #f5b133;
   border-bottom: none;
 }
 
@@ -149,10 +213,10 @@ height: 300px;
 
 .myButton {
 	/* background-color:#E6A4B4; */
-  background-color: #c48312;
+  background-color: #f5b133;
 	border-radius:28px;
 	/* border:1px solid #E6A4B4; */
-  border:1px solid #c48312;
+  border:1px solid #f5b133;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -165,11 +229,11 @@ height: 300px;
   margin-top: 10px;
 
   position: absolute;
-  left: 480px;
+  left: 230px;;
 }
 .myButton:hover {
 	/* background-color:#c86b85; */
-  background-color: #C47312;
+  background-color: #c48312;
   color: #ffffff;
 }
 .myButton:active {
@@ -179,12 +243,12 @@ height: 300px;
 
 /* ADRESSE  */
 
-.container-fluid-adresse {
-  /* background-color: #E6A4B4; */
-  background-color: #1253c4;
+/* .container-fluid-adresse {
+  background-color: #E6A4B4; 
+  background-color: #C41218;
   padding: 5% 4%;
   position: relative;
-}
+} */
 
 .titreCI {
   font-family: 'Great Vibes', cursive;
@@ -204,10 +268,17 @@ height: 300px;
   /* left: 100px; */
 }
 
+#Anita {
+  margin-bottom: 0px;
+}
 
+.Anita {
+  font-weight: 700;
+}
 
 #footer {
   text-align: center;
   background-color: #F5EEE6;
   padding-top: 20px;
+  font-weight: lighter;
 }
