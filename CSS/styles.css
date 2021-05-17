@@ -1,7 +1,6 @@
 body{
 background-color: #F5EEE6;
 }
-
 .row {
   position: relative;
 }
@@ -12,7 +11,6 @@ background-color: #F5EEE6;
   /* background-color: #c48312; */
   position: relative;
   color: #F5EEE6;
-
 }
 .Main-title {
   font-family: 'Great Vibes', cursive;
@@ -38,7 +36,6 @@ background-color: #F5EEE6;
 #firstSection {
   position: relative;
 }
-
 .container-fluid-MainInfos {
   padding: 5% 4%;
   position: relative;
@@ -47,24 +44,20 @@ background-color: #F5EEE6;
 .rowOuvertures {
   height: 310px;
 }
-
 .heuresOuverture {
   position: relative;
   left: 20px;
   text-align: center;
   top: 50px;
 }
-
 .title-heures-ouverture {
   font-size: 35px;
   font-weight: bold;
 }
-
 .heures-ouverture {
   font-size: 25px;
   font-weight: bold;
 }
-
 .imageBib {
   left: 50px;
 }
@@ -74,7 +67,6 @@ background-color: #F5EEE6;
   height: 300px;
   border-radius: 2.8%;
 }
-
 .sallEntree {
   width: 300px;
   height: 300px;
@@ -82,7 +74,7 @@ background-color: #F5EEE6;
   border-radius: 2.8%;
 }
 
-/* LIVRE du mois Krimi */
+/* Krimi vum Mount */
 
 .container-fluid-livreKrimi {
   background-color: #128FC4;
@@ -123,7 +115,7 @@ background-color: #F5EEE6;
   border-bottom: none;
 }
 
-/* Livre du mois Roman */
+/* Roman vum Mount */
 
 .container-fluid-livreRoman {
   background-color: #f5b133;
@@ -149,17 +141,15 @@ background-color: #F5EEE6;
 .pictureLivreRoman {
   position: relative;
   left: 130px;
- 
 }
-
 .divRoman{
   padding-top: 0.001%;
   padding-left: 10%;
 }
 .pictureRoman {
   position: absolute;
-  max-width: 400px;
-  max-height: 550px;
+  max-width: 550px;
+  max-height: 500px;
   /* left: 25%; */
 }
 .textPictureRoman {
@@ -169,7 +159,7 @@ background-color: #F5EEE6;
   font-size: xx-small;
 }
 
-/* Livre du mois Enfant */
+/* Kannerbuch vum Mount */
 
 .container-fluid-livreEnfant {
   background-color: #128FC4;
@@ -178,21 +168,18 @@ background-color: #F5EEE6;
   position: relative;
   /* height: 510px; */
 }
-
 .pictureLivreEnfant {
   position: relative;
   left: 120px;
 }
-
 .pictureLE {
   position: absolute;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 450px;
+  max-height: 450px;
   left: -1%;
   /* top: 100px;
   left:51px; */
 }
-
 .textPictureLE {
   font-family: 'Great Vibes', cursive;
   position: absolute;
@@ -201,25 +188,67 @@ background-color: #F5EEE6;
   /* top: 100px;
   left:51px; */
 }
-
 .livreEnfant {
   text-align: center;
   left: 210px;
 }
-
 .titreLivreEnfant {
   font-family: 'Great Vibes';
   font-size: 56px;
   font-weight: bold;
   text-align: center;
 }
-
 .chEnfant {
   background-color: #128FC4;
   border-bottom: none;
 }
 
-
+/* Letzebuerger Buch vum Mount*/
+.container-fluid-buchLetzebuerg {
+  background-color: #f5b133;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+  height: 530px; 
+}
+.buchLetzebuerg {
+  text-align: center;
+  left: 120px;
+}
+.titreBuchLetzebuerg {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.card-header-buchLetzebuerg {
+  background-color: #f5b133;
+  border-bottom: none;
+}
+.body-Letz{
+  padding-top: 5%;
+}
+.pictureBuchLetzebuerg {
+  position: relative;
+  left: 130px;
+}
+.divBuchLetzebuerg {
+  padding-top: 0.001%;
+  padding-left: 10%;
+}
+.pictureBuchLetzebuerg2 {
+  position: absolute;
+  max-width: 400px;
+  max-height: 550px;
+  /* left: 25%; */
+}
+.textPictureBuchLetzebuerg {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+}
 /* CONTACT INFORMATION  */
 
 .container-fluid-contactInformation {
@@ -229,10 +258,8 @@ background-color: #F5EEE6;
   font-size: 20px;
   position: relative;
 }
-
 .responsable {
   text-align: center;
-
 }
 .titreResponsable {
   font-family: 'Great Vibes', cursive;
@@ -274,13 +301,13 @@ background-color: #F5EEE6;
 }
 
 /* FACEBOOK */
-.container-fluid-facebook {
+/* .container-fluid-facebook {
   padding-top: 0%;
   padding-bottom: 2%;
 }
 .facebook {
   padding-left: 47.5%;
-}
+} */
 
 #footer {
   text-align: center;
