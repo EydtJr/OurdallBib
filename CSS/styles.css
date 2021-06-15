@@ -1,0 +1,329 @@
+body{
+background-color: #F5EEE6;
+}
+.row {
+  position: relative;
+}
+
+/* MAIN TITLE  */
+
+.div-Main-title {
+  /* background-color: #c48312; */
+  position: relative;
+  color: #F5EEE6;
+}
+.Main-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  text-align: center;
+
+  margin-bottom: 0;
+  padding-top: 20px;
+  color: bisque;
+}
+.Main-subtitle{
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  text-align: center;
+
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: bisque;
+}
+
+/* HEURES D'OUVERTURE CONTAINER  */
+
+#firstSection {
+  position: relative;
+}
+.container-fluid-MainInfos {
+  padding: 5% 4%;
+  position: relative;
+  left: -15px;
+}
+.rowOuvertures {
+  height: 310px;
+}
+.heuresOuverture {
+  position: relative;
+  left: 20px;
+  text-align: center;
+  top: 50px;
+}
+.title-heures-ouverture {
+  font-size: 35px;
+  font-weight: bold;
+}
+.heures-ouverture {
+  font-size: 25px;
+  font-weight: bold;
+}
+.imageBib {
+  left: 50px;
+}
+.kannerSall {
+  position:absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 2.8%;
+}
+.sallEntree {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 2.8%;
+}
+
+/* Krimi vum Mount */
+
+.container-fluid-livreKrimi {
+  background-color: #128FC4;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+  /* height: 510px; */
+}
+.pictureLivreKrimi {
+  position: relative;
+  left: 100px;
+}
+.pictureKrimi {
+  /* position: absolute; */
+  /* width: 100%;
+  height: 100%; */
+  max-width: 110%;
+  max-height: 100%;
+}
+.textPictureKrimi {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+}
+.livreKrimi {
+  text-align: center;
+  left: 180px;
+}
+.titreLivreKrimi {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-header-Krimi {
+  background-color: #128FC4;
+  border-bottom: none;
+}
+
+/* Roman vum Mount */
+
+.container-fluid-livreRoman {
+  background-color: #f5b133;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+  /* height: 510px; */
+}
+.livreRoman {
+  text-align: center;
+  left: 120px;
+}
+.titreLivreRoman {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-header-Roman {
+  background-color: #f5b133;
+  border-bottom: none;
+}
+.pictureLivreRoman {
+  position: relative;
+  left: 130px;
+}
+.divRoman{
+  padding-top: 0.001%;
+  padding-left: 10%;
+}
+.pictureRoman {
+  position: absolute;
+  max-width: 550px;
+  max-height: 550px;
+  left: 20%;
+}
+.textPictureRoman {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  left: 20.5%;
+}
+
+/* Kannerbuch vum Mount */
+
+.container-fluid-livreEnfant {
+  background-color: #128FC4;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+  /* height: 510px; */
+}
+.pictureLivreEnfant {
+  position: relative;
+  left: 120px;
+}
+.pictureLE {
+  position: absolute;
+  max-width: 450px;
+  max-height: 520px;
+  left: -1%;
+  /* top: 100px;
+  left:51px; */
+}
+.textPictureLE {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  /* top: 100px;
+  left:51px; */
+}
+.livreEnfant {
+  text-align: center;
+  left: 210px;
+}
+.titreLivreEnfant {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.chEnfant {
+  background-color: #128FC4;
+  border-bottom: none;
+}
+
+/* Letzebuerger Buch vum Mount*/
+.container-fluid-buchLetzebuerg {
+  background-color: #f5b133;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+  height: 600px; 
+}
+.buchLetzebuerg {
+  text-align: center;
+  left: 120px;
+}
+.titreBuchLetzebuerg {
+  font-family: 'Great Vibes';
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.card-header-buchLetzebuerg {
+  background-color: #f5b133;
+  border-bottom: none;
+}
+.body-Letz{
+  padding-top: 5%;
+}
+.pictureBuchLetzebuerg {
+  position: relative;
+  left: 130px;
+}
+.divBuchLetzebuerg {
+  padding-top: 0.001%;
+  padding-left: 10%;
+}
+.pictureBuchLetzebuerg2 {
+  position: absolute;
+  max-width: 430px;
+  max-height: 480px;
+  left: 25%;
+}
+.textPictureBuchLetzebuerg {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  left:25.5%;
+}
+/* CONTACT INFORMATION  */
+
+.container-fluid-contactInformation {
+  background-color: #F5EEE6;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 20px;
+  position: relative;
+}
+.responsable {
+  text-align: center;
+}
+.titreResponsable {
+  font-family: 'Great Vibes', cursive;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+/* ADRESSE  */
+
+.titreCI {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  font-weight: bold;
+}
+.adresseBib {
+  left: 140px;
+  top: 70px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.googleMaps {
+  position: relative;
+  left: 4%;
+}
+.titreResponsable{
+  padding-top: 10%;
+}
+.responsable{
+  left: 5%;
+}
+#Anita {
+  margin-bottom: 0px;
+}
+.Anita {
+  font-weight: 700;
+}
+
+/* A-Z */
+
+.abisz{
+background-color:transparent;
+left:26%;
+}
+
+
+
+/* FACEBOOK */
+/* .container-fluid-facebook {
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+.facebook {
+  padding-left: 47.5%;
+} */
+
+#footer {
+  text-align: center;
+  background-color: #F5EEE6;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+
+
