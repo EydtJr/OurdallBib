@@ -90,14 +90,14 @@ background-color: #F5EEE6;
   font-size: 25px;
   width: 300px;
   height: 80px;
-  background-image: url(/Ourdall/Pictures/Luxembourg.png);
+  background-image: url(/Pictures/Luxembourg.png);
   background-size: 45%;
   position: absolute;
   left: 105px;
   bottom: 30px;  
 }
 #button_Polen:hover{
-  background-image: url(/Ourdall/Pictures/flagge-polen.jpg);
+  background-image: url(/Pictures/flagge-polen.jpg);
   background-size: 40%;
   
 }
