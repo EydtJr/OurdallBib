@@ -118,7 +118,7 @@ background-color: #F5EEE6;
 .pictureKrimi {
   /* position: absolute; */
   width: 115%;
-  height: 100%; 
+  height: 105%; 
   max-width: 130%;
   max-height: 130%;
 }
@@ -176,7 +176,7 @@ background-color: #F5EEE6;
 }
 .pictureRoman {
   width:120%;
-  height: 90%;
+  height: 105%;
   /*max-width: 130%;
   max-height: 130%; */
   left: 20%;
@@ -204,8 +204,8 @@ background-color: #F5EEE6;
   left: 120px;
 }
 .pictureLE {
-  width: 110%;
-  height: 120%;
+  width: 105%;
+  height: 110%;
   max-width: 130%;
   max-height: 130%;
   left: -1%;  
