@@ -176,7 +176,7 @@ background-color: #F5EEE6;
 }
 .pictureRoman {
   width:120%;
-  height: 105%;
+  height: 95%;
   /*max-width: 130%;
   max-height: 130%; */
   left: 20%;
@@ -205,7 +205,7 @@ background-color: #F5EEE6;
 }
 .pictureLE {
   width: 105%;
-  height: 110%;
+  height: 100%;
   max-width: 130%;
   max-height: 130%;
   left: -1%;  
