@@ -118,7 +118,7 @@ background-color: #F5EEE6;
 .pictureKrimi {
   /* position: absolute; */
   width: 115%;
-  height: 105%; 
+  height: 97%; 
   max-width: 130%;
   max-height: 130%;
 }
@@ -176,7 +176,7 @@ background-color: #F5EEE6;
 }
 .pictureRoman {
   width:120%;
-  height: 95%;
+  height: 105%;
   /*max-width: 130%;
   max-height: 130%; */
   left: 20%;
@@ -204,8 +204,8 @@ background-color: #F5EEE6;
   left: 120px;
 }
 .pictureLE {
-  width: 105%;
-  height: 100%;
+  width: 120%;
+  height: 116%;
   max-width: 130%;
   max-height: 130%;
   left: -1%;  
@@ -238,7 +238,7 @@ background-color: #F5EEE6;
   padding-top: 4%;
   padding-bottom: 0%;
   /* position: relative; */
-  height: 650px; 
+  height: 800px; 
 }
 .buchLetzebuerg {
   text-align: center;
@@ -273,6 +273,7 @@ background-color: #F5EEE6;
   max-width: 550px;
   max-height: 550px;
   left: 25%;
+  top: 70px;
   
 }
 .textPictureBuchLetzebuerg {
