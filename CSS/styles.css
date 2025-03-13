@@ -1,0 +1,388 @@
+body {
+    background-color: bisque;
+  }
+  
+  /* Main Title - F5EEE6 */
+  .jumbotron {
+    color: #F5EEE6;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 60vh;
+  }
+  
+  .display-4 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    color: #003366;
+  }
+  /* Color was bisque before*/
+  
+  .lead {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    color: #046307;
+  }
+  
+  /* Heures d'Ouverture Container */
+  #firstSection {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #firstSection h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    padding-top: 3rem;
+  }
+  
+  #firstSection .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  #firstSection ul {
+    padding-left: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  
+  #firstSection ul li {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Images */
+  .img-fluid {
+    border-radius: 0.5rem;
+  }
+  .img-fluid-ministere {
+    border-radius: 0.5rem;
+    width: 70%;
+    height: 70%;
+  }
+  
+  /* Card Sections */
+  .card {
+    margin-bottom: 2rem;
+  }
+  
+  .card-header {
+    background-color: transparent;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 1rem;
+    color: #fff;
+  }
+
+  .card-header h2 {
+    font-family: 'Lora';
+    font-size: 2.5 rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .display-4 {
+      font-size: 2.5rem;
+    }
+  
+    .lead {
+      font-size: 1.25rem;
+    }
+  
+    #firstSection h2,
+    #BuchKrimi h2,
+    #BuchRoman h2,
+    #livre h2,
+    #BuchLetz h2 {
+      font-size: 1.75rem;
+    }
+  
+    #firstSection ul li {
+      font-size: 1rem;
+    }
+  
+    .card-body p {
+      font-size: 1rem;
+    }
+  
+    .responsive-img {
+      max-width: 80%;
+      height: auto;
+    }
+    
+    /* Adjusting the column sizes for better layout on smaller devices */
+    /* Vieleicht löschen vun #firstSection .col-sm-12 wann et um Smartphone ze vill ofstand get */
+    #firstSection .col-sm-12 {
+      margin-bottom: 0.2rem;
+    }
+    
+    #firstSection .col-lg-4, 
+    #firstSection .col-md-3, 
+    #firstSection .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    
+  }
+  
+  /* Specific Section Styles */
+  .container-fluid {
+    padding: 2rem 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  /* Krimi vum Mount - #128FC4 */
+  #BuchKrimi {
+    background-color: #800020;
+    padding: 4% 1%;
+  }
+  
+  #BuchKrimi h2 {
+    color: #F8E1D0;
+  }
+  
+  #BuchKrimi .card-header {
+    background-color: #800020;
+  }
+  
+  #BuchKrimi .card-body {
+    background-color: #800020;
+    color: #F8E1D0;
+  }
+  
+  /* Roman vum Mount #f5b133 */
+  #BuchRoman {
+    background-color: #556B2F;
+    padding: 4% 1%;
+  }
+  
+  #BuchRoman h2 {
+    color: #EAE6DA;
+  }
+  
+  #BuchRoman .card-header {
+    background-color: #556B2F;
+  }
+  
+  #BuchRoman .card-body {
+    background-color: #556B2F;
+    color: #EAE6DA;
+  }
+  
+  /* Kannerbuch vum Mount #128FC4 */
+  #livre {
+    background-color: #B57EDC;
+    padding: 4% 1%;
+  }
+  
+  #livre h2 {
+    color: #FAE3D9;
+  }
+  
+  #livre .card-header {
+    background-color: #B57EDC;
+  }
+  
+  #livre .card-body {
+    background-color: #B57EDC;
+    color: #FAE3D9;
+  }
+
+  /* Color for text - #2C2C54*/
+  
+  /* Letzebuerger Buch vum Mount #f5b133 */
+  #BuchLetz {
+    background-color: #FFA500;
+    padding: 4% 1%;
+  }
+  
+  #BuchLetz h2 {
+    color: #0a0a0a;
+  }
+  
+  #BuchLetz .card-header {
+    background-color: #ffa500;
+  }
+  
+  #BuchLetz .card-body {
+    background-color: #ffa500;
+    color: #0a0a0a;
+  }
+  /* Color for text #5A3E36*/
+  
+  /* Contact Information */
+  #contact .container-fluid {
+    font-size: 1rem;
+    background-color: bisque;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  #contact p,
+  #contact ul {
+    text-align: center;
+    color: #333;
+  }
+  
+  #contact ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  
+  /* Footer */
+  #footer {
+    text-align: center;
+    background-color: bisque;
+    padding: 1rem 0;
+    font-weight: lighter;
+  }
+  
+  /* Additional Styles */
+  #contact .container-fluid {
+    font-size: 1rem;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  #contact p,
+  #contact ul {
+    text-align: center;
+    color: #333;
+  }
+  
+  #contact ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  /* Responsive iframe */
+  iframe {
+    width: 70%;
+    height: 100%;
+  }
+
+  /* Add the .logo-img class */
+.logo-img {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Ensure the container aligns items centrally */
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+
+  /* Ensure the container aligns items centrally */
+.d-flex {
+    display: flex !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  /* Centering content for Krimi, Roman, Kannerbuch, and Letzebuerger Buch sections */
+  #BuchKrimi .container-fluid,
+  #BuchRoman .container-fluid,
+  #livre .container-fluid,
+  #BuchLetz .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #BuchKrimi .row,
+  #BuchRoman .row,
+  #livre .row,
+  #BuchLetz .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #BuchKrimi .col-lg-6,
+  #BuchRoman .col-lg-6,
+  #livre .col-lg-6,
+  #BuchLetz .col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #BuchKrimi img,
+  #BuchRoman img,
+  #livre img,
+  #BuchLetz img {
+    max-width: 100%;
+    height: auto;
+  }
